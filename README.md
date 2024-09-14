@@ -4,7 +4,7 @@
 
 2. Opitei pelo seguinte dataset: `http://archive.ics.uci.edu/dataset/19/car+evaluation`.
 
-3. Utilizaremos a aplicação conhecida como [**WEKA**](https://weka.softonic.com.br/), foi necessário encontrar o formato dos arquivos do dataset com a extensão **.arff**. Para isso, com uma rápida pesquisa no Google, encontrei o seguinte repositório com exatamente o arquivo que precisava: `https://github.com/renatopp/arff-datasets/blob/master/classification/car.arff`.
+3. Utilizaremos a aplicação conhecida como [**WEKA**](https://waikato.github.io/weka-wiki/downloading_weka/), foi necessário encontrar o formato dos arquivos do dataset com a extensão **.arff**. Para isso, com uma rápida pesquisa no Google, encontrei o seguinte repositório com exatamente o arquivo que precisava: `https://github.com/renatopp/arff-datasets/blob/master/classification/car.arff`.
 
 4. Após baixar todos os arquivos e o programa necessário, executei o Weka.
     - Acessei a opção `Explorer`.
