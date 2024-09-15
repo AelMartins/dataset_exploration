@@ -1,13 +1,17 @@
 # Aprendizagem de máquina
 
-1. Acessamos a página `http://archive.ics.uci.edu` e escolhemos um dataset com a tarefa em **CLASSIFICAÇÃO** e uma quantidade acima de **1000 INSTANCIAS**.
+1. Acessamos a página [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu) e escolhemos um dataset com a tarefa em **CLASSIFICAÇÃO** e uma quantidade acima de **1000 INSTÂNCIAS**.
 
-2. Opitei pelo seguinte dataset: `http://archive.ics.uci.edu/dataset/19/car+evaluation`.
+2. Selecionei o dataset [Car Evaluation](http://archive.ics.uci.edu/dataset/19/car+evaluation).
 
-3. Utilizaremos a aplicação conhecida como [**WEKA**](https://waikato.github.io/weka-wiki/downloading_weka/), foi necessário encontrar o formato dos arquivos do dataset com a extensão **.arff**. Para isso, com uma rápida pesquisa no Google, encontrei o seguinte repositório com exatamente o arquivo que precisava: `https://github.com/renatopp/arff-datasets/blob/master/classification/car.arff`.
+3. Como estamos utilizando a aplicação [**WEKA**](https://waikato.github.io/weka-wiki/downloading_weka/), foi necessário encontrar o formato dos arquivos do dataset na extensão **.arff**. Para isso, através de uma rápida pesquisa no Google, encontrei o seguinte repositório com o exato arquivo que precisava: `https://github.com/renatopp/arff-datasets/blob/master/classification/car.arff`.
 
-4. Após baixar todos os arquivos e o programa necessário, executei o Weka.
+4. Após baixar todos o arquivo e o programa necessário, executei o Weka.
     - Acessei a opção `Explorer`.
-    - Em `Preprocess` naveguei entre meus arquivos e abri o arquivo correspondente ao dataset `car.arff`.
+    - Em `Preprocess` naveguei entre minhas pastas e abri o arquivo correspondente ao dataset `car.arff`.
     - Na aba `Classify` selecionei a opção `Choose` e escolhi o algoritimo **J48**.
-    - As demais opções deichei como estavam e cliquei em `start`. A ideia é executar uma verificação de classificação correta das instancias. Para fins didáticos, é necessário que a quantidade de acertos esteja a baixo de 95%. Esse dataset atigiu aproximadamente 92%
+    - As demais opções deichei como estavam e cliquei em `start`. A ideia deste processo é executar uma verificação da porcentagem de classificações corretas das instâncias. Para fins didáticos, é necessário que a quantidade de acertos esteja abaixo de 95%. Esse dataset específico atigiu um resultado proximo a 92%.
+
+
+> [!NOTE]
+> O arquivo .pdf **ANALISE_DE_ALGORITMOS_WEKA** é uma pesquisa comparativa entre os algoritmos que o programa WEKA disponibiliza utilizando o dataset mencionado anteriormente.
