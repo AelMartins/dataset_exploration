@@ -15,3 +15,4 @@
 
 > [!NOTE]
 > O arquivo .pdf [**ANALISE_WEKA_ALGORITMOS_DE_REGRA_E_DE_ARVORES**](./ANALISE_WEKA_ALGORITMOS_DE_REGRA_E_DE_ARVORES.pdf) é uma pesquisa comparativa entre os algoritmos que o programa WEKA disponibiliza utilizando o dataset mencionado anteriormente.
+> O arquivo .pdf [**ANALISE_WEKA_MULTILAYER_PERCEPTRON**](./ANALISE_WEKA_MULTILAYER_PERCEPTRON.pdf) é uma pesquisa sobre um algoritmo específico no treinamento de aprendizagem de máquina que o programa WEKA disponibiliza utilizando o mesmo dataset mencionado.
